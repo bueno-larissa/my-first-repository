@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> My Travels </title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family:'Sinera';
+            src: url('fonts/sinera.woff2') format('woff2'),
+                 url('fonts/sinera.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            
+        }
+        
+        body {
+            background: linear-gradient(to bottom, #c8eaff, #006aac);
+        }
+        
+        p{
+            text-align:left;
+            color: grey;
+            font-family: Lexend;
+            font-weight: 200
+        }
+        
+        header{
+            display: flex;
+            justify-content: center;
+            background-image: url('Header.jpg');
+            border-radius: 20px 0px 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+          
+        }
+        
+        .header-box{
+            
+            padding: 300px;
+            text-align: center;
+            display: inline-block;
+            font-family: Sinera;
+            font-size: 40px;
+        }
+        
+        h1{
+            color: azure
+        }
+        
+        h2{
+            font-family: Sinera;
+            font-weight: 300;
+            text-align: center;
+            color: aliceblue;
+            font-size: 40px
+        }
+        
+        .bordered-section h2 { 
+            color: darkcyan;
+        }
+        
+    .left-image {
+            float: left;
+            margin-right: 20px; 
+            width: 400px; 
+            border-radius: 20px 0px 20px; 
+            border: 5px solid #d9edf8;    
+        }
+        
+        
+        
+        .bordered-section {
+            border: 5px solid #d9edf8;
+            border-radius: 20px 0px 20px; 
+            margin: 20px;
+            padding: 20px 200px; 
+            text-align: center;
+            background-color: #f4f5f6;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            
+           
+            
+        }
+
+        .bordered-section::after {
+            content: "";
+            display: block; 
+            clear: both;
+            
+            
+        }
+        
+        h3{
+            font-family: Lexend;
+            font-weight: 300;
+            text-align: left;
+            color: gray
+        }
+        
+        ul{
+            text-align: left;
+            font-family: 'Lexend', sans-serif;
+            font-weight: 200;
+            color: grey;
+            
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f5f6;
+            border-top: 1px solid #ccc; 
+            position: relative;
+            bottom: 0; 
+            width: 100%;
+        }
+        
+        li{
+            margin-left: -15px;
+        }
+
+        
+        
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="header-box">
+        <h1>Welcome to My Travels Page</h1>
+        <p>
+
+    </p>
+            </div>
+    </header>
+    
+    <h2>Places that I visited and recomend </h2> 
+    
+  <section class="bordered-section">
+        <h2>Spain</h2> 
+      <div class="content-flex">
+        <img src="section%201.jpg" alt="Spain" width="300" class="left-image">
+        <p>
+            This was my trip to Spain. This specific photo was taken in Barcelona, where I also traveled to Madrid, Cullera, Vigo, and Valencia. It was a wonderful experience that allowed me to practice my Spanish with native speakers and enhance my communication skills. The Spanish people are very polite and welcoming, so if you ever visit, be open to receiving hugs and physical contact!
+        </p>
+    </div>
+
+    <h3>Some Places I Recommend Visiting</h3>   <!-- idk how to make this li align with the tittle -->
+    <ul> 
+        <li>The Sagrada Familia (Basilica and Expiatory Church of the Holy Family);</li>
+        <li>Park Guell;</li>
+        <li>La Rambla;</li>
+        <li>Valencia's City of Arts and Sciences.</li>
+    </ul>
+      <h3>Tips for Visiting:</h3>   
+    <ul> 
+        <li>Best time: Spring or early fall for pleasant weather;</li>
+        <li>Try local dishes like tapas and paella;</li>
+        <li>Moovit App for bus, trains and locations;</li>
+        <li>Be carefull with your items, Spain can be tricky sometimes.</li>
+    </ul>
+      
+</section>
+    
+    <section class="bordered-section">
+        <h2>France</h2> 
+      <div class="content-flex">
+        <img src="section%202.jpg" alt="Spain" width="300" class="left-image">
+        <p>
+            This photo was taken during my trip to France. I only visited Paris, but it was a fantastic experience. Paris is amazing in the summertime, and the nightlife is vibrant, filled with diverse people and plenty of activities. I would love to go back and live there for a short time. If you decide to visit in the winter, know that all these places are open, but be prepared for the intense cold!
+        </p>
+    </div>
+
+    <h3>Some Places I Recommend Visiting</h3>  
+    <ul> 
+        <li>Eiffel Tower</li>
+        <li>Louvre</li>
+        <li>Lavomatic Bar</li>
+        <li>Arc de Triomphe</li>
+        <li>Musee d'Orsay</li>
+        <li>Cathedrale Notre-Dame</li>
+        <li>Jardin du Luxembourg</li>
+    </ul>
+         <h3>Tips for Visiting:</h3>   
+    <ul> 
+        <li>If you fly into Charles de Gaulle Airport, instead of calling a taxi or using Uber, take the train from the airport to the city center for only 16 euros;</li>
+        <li>Best time: Late spring or summer for outdoor events and festivals;</li>
+        <li>Moovit App for bus, trains and locations;</li>
+        <li>Be carefull with your items, Spain can be tricky sometimes;</li>
+        <li>Be prepared for colder weather if you visit in winter, many attractions are open year-round;</li>
+    </ul>
+      
+</section>
+    
+     <section class="bordered-section">
+        <h2>Portugal</h2> 
+      <div class="content-flex">
+        <img src="section%203.jpg" alt="Spain" width="300" class="left-image">
+        <p>
+            My experience in Portugal was quite extensive, as part of my family is from there. I had the opportunity to live and work in Portugal for almost two years. It’s a beautiful country with a significant number of immigrants from Brazil and Africa. Living there is quite affordable, and the bakery products are incredibly delicious. All the cities are relatively small, so I recommend visiting as many as possible. Also, be prepared for the wind, as Portugal is famously known for its breezy weather!
+        </p>
+    </div>
+
+    <h3>Some Places I Recommend Visiting</h3>  
+    <ul> 
+        <li>Lisbon</li>
+        <li>Porto</li>
+        <li>Algarve</li>
+        <li>Faro</li>
+        <li>Braga</li>
+        <li>Nazare</li>
+        <li>Aveiro</li>
+    </ul>
+          <h3>Tips for Visiting:</h3>   
+    <ul> 
+        <li>Fly into Lisbon Airport and use trains or buses to travel between cities like Porto and Faro;</li>
+        <li>Google Maps for location;</li>
+        <li>Enjoy local pastries like Pastel de Nata and Ovos Moles.</li>
+    </ul>
+      
+      
+</section>
+    
+         <section class="bordered-section">
+        <h2>United States of America</h2> 
+      <div class="content-flex">
+        <img src="section%204.jpg" alt="Spain" width="300" class="left-image">
+        <p>
+            I recently arrived in America, so I can recommend many places. I had the chance to live in Arizona for three months, and it was pretty cool. I was studying business at ASU and had the opportunity to visit Las Vegas and the Grand Canyon. If you go to Las Vegas... Watch your money!
+        </p>
+    </div>
+
+    <h3>Some Places I Recommend Visiting</h3>  
+    <ul> 
+        <li>Grand Canyon - AZ </li>
+        <li>Space Needle - SE</li>
+        <li>Las Vegas</li>
+    </ul>
+             <h3>Tips for Visiting:</h3>   
+    <ul> 
+        <li>Rent a car for flexibility in exploring;</li>
+        <li>Be cautious with spending in Las Vegas;</li>
+        <li>Summer will be a good time for Seattle but if you choose Arizona, fall will be your glory time.</li>
+    </ul>
+</section>
+    
+      <section class="bordered-section">
+        <h2>Brasil</h2> 
+      <div class="content-flex">
+        <img src="section%205.jpg" alt="Spain" width="300" class="left-image">
+        <p>
+          I’m from Brazil, but I haven’t lived there for the past two years. I visit once a year, and last year, I had the chance to explore some of my favorite places. I’d love to share some tips if you ever plan to visit! Be prepared for the intense heat, and don’t forget to engage with Brazilians, we love to talk and share our diverse cultures. If you go, I’m sure you’ll come back with some new friends!
+        </p>
+    </div>
+
+    <h3>Some Places I Recommend Visiting</h3>  
+    <ul> 
+        <li>Ubatuba-SP </li>
+        <li>Sao Paulo</li>
+        <li>Minas Gerais</li>
+        <li>Bahia</li>
+        <li>Rio de Janeiro</li>
+        <li>Chapada dos Veadeiros</li>
+        <li>Amazonia</li>
+    </ul>
+          
+     <h3>Tips for Visiting:</h3>   
+        <ul> 
+            <li>Fly into Lisbon Airport and use trains or buses to travel between cities like Porto and Faro</li>
+            <li>Use Google Maps for navigation</li>
+            <li>Enjoy local pastries like Pastel de Nata and Ovos Moles</li>
+        </ul>
+      
+</section>
+    
+    
+    <footer>
+      <p>&copy; 2024 Larissa Bueno. All rights reserved.</p>
+        
+    </footer>
+    
+
+</body>
+</html>
